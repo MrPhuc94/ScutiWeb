@@ -3,9 +3,7 @@
   font-weight: 16px;
   background-color: var(--light-bg-color);
   color: var(--lightgray-color);
-  position: fixed;
   width: 100%;
-  bottom: 0;
   display: flex;
   justify-content: center;
   align-items: center;

@@ -41,7 +41,7 @@
   font-weight: bold;
   font-size: 16px;
   line-height: 24px;
-  filter: drop-shadow(0px 4px 4px #000000);
+  /* filter: drop-shadow(0px 4px 4px #000000); */
 }
 
 .banner .slides .slide .content .content_left .btn_action {
