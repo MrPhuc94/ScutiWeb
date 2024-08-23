@@ -1,9 +1,16 @@
 .footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+  height: 80px;
+  font-weight: 16px;
+  background-color: var(--light-bg-color);
+  color: var(--lightgray-color);
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  p {
+    text-transform: uppercase;
+  }
 }

@@ -15,8 +15,6 @@
   color: var(--darkgray-color);
   font-size: 48px;
   font-weight: bold;
-  width: 392px;
-  height: 116px;
   margin-bottom: 64px;
   margin-top: 5px;
 }
@@ -30,15 +28,15 @@
 
 .services #content_left {
   img {
-    max-width: 598px;
-    max-height: 652px;
+    width: 100%;
+    height: auto;
   }
 }
 
 .services #content_right {
   img {
-    max-width: 280px;
-    max-height: 279px;
+    width: 100%;
+    height: auto;
   }
 }
 
