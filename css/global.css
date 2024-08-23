@@ -12,6 +12,11 @@
   /* Dimension */
 
   --margin--body: 10%;
+
+  /* Font size */
+
+  --font-medium: 18px;
+  --font-angular: 20px;
 }
 
 *,
