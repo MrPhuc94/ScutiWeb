@@ -1,0 +1,29 @@
+:root {
+  /* Colors */
+
+  --white-color: #ffffff;
+
+  --darkgray-color: #161415;
+  --newPri-color: #1e7467;
+  --border-color: #cccccc;
+
+  /* Dimension */
+
+  --margin--body: 10%;
+}
+
+*,
+body,
+header {
+  padding: 0;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+main {
+  margin-bottom: 80px;
+}
