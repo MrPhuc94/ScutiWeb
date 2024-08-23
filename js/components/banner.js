@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', () => {
     .then((data) => {
       document.getElementById('banner').innerHTML = data;
 
-      // Initialize the slider
       let slideIndex = 0;
       const slides = document.querySelectorAll('.slide');
       const dots = document.querySelectorAll('.dot');
@@ -22,8 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
           'slides'
         )[0].style.transform = `translateX(${offset}%)`;
 
-        // update active dot
-        console.log('dots', dots);
+        // Update active dot
         dots.forEach((dot) => dot.classList.remove('active'));
         dots[slideIndex].classList.add('active');
       }
@@ -36,9 +34,13 @@ document.addEventListener('DOMContentLoaded', () => {
         showSlide(n);
       }
 
+      // Initialize the slider
+      showSlide(slideIndex);
+
       // add automatic sliding
       setInterval(() => {
         moveSlide(1);
+        currentSlide(slideIndex);
       }, 3000);
     });
 });
