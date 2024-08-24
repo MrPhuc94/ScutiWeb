@@ -1,6 +1,6 @@
 .services {
+  width: calc(100% - (2 * var(--margin--body)));
   height: auto;
-  width: 100%;
   margin: 128px var(--margin--body);
   background-color: var(--white-color);
 }
