@@ -1,0 +1,45 @@
+.award_slide {
+  margin-left: var(--margin--body);
+  margin-top: 54px;
+}
+
+.award_slide .slides {
+  display: flex;
+  overflow: hidden;
+  gap: 80px;
+}
+
+.award_slide .slide_title {
+  font-size: 24px;
+  color: #333333;
+  margin: 46px 0;
+}
+
+.award_slide .slide_description {
+  font-size: 16px;
+  color: #515050;
+}
+
+/* style dots slider */
+
+.award_dots {
+  text-align: center;
+  position: absolute;
+  bottom: 100px;
+  width: 100%;
+}
+
+.award_dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 5px;
+  background-color: var(--border-color);
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.award_dot.active {
+  background-color: var(--newPri-color);
+}

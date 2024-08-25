@@ -1,0 +1,20 @@
+.award {
+  width: 100%;
+  height: auto;
+  background-color: var(--light-bg-color);
+  padding: 128px 0;
+  text-align: center;
+  position: relative;
+}
+
+.award .label {
+  font-size: 16px;
+  color: var(--newPri-color);
+  text-transform: uppercase;
+  margin-bottom: 18px;
+}
+
+.award .title {
+  font-size: 48px;
+  color: var(--darkGray-color);
+}
