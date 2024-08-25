@@ -53,3 +53,11 @@
     height: auto;
   }
 }
+
+
+#client_footer{
+  height: 478px;
+  background: url(/assets/images/brands/World2.png) no-repeat;
+  width: 100%;
+  background-size: cover;
+}
